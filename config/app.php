@@ -213,4 +213,7 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'telegram_token' => env('TELEGRAM_TOKEN'),
+    'telegram_chat_id' => (int)env('TELEGRAM_CHAT_ID'),
+
 ];
